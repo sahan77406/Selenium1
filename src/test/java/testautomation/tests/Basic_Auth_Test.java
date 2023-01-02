@@ -2,15 +2,12 @@ package testautomation.tests;
 
 import org.testng.annotations.Test;
 import testautomation.utilities.WindowsManager;
-
 import static java.lang.Thread.sleep;
 import static org.testng.Assert.assertEquals;
 
 public class Basic_Auth_Test extends Base_Tests{
 
-
     @Test
-
     public void test_basic_auth () throws Exception {
         WindowsManager windowsManager = new WindowsManager(driver);
 

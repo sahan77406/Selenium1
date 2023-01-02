@@ -23,4 +23,11 @@ public class Home_Page {
         clickLink("Basic Auth");
         return new Basic_Auth_Page(driver);
     }
+
+    public Checkboxes_Page click_Checkboxes() {
+        clickLink("Checkboxes");
+        return new Checkboxes_Page(driver);
+    }
+
+
 }
